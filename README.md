@@ -5,7 +5,7 @@ Watch YouTube interactively like a visual novel, skipping subtitles as you go.
 ## Prerequisites
 
 - Install [MPV Media Player](https://github.com/mpv-player/mpv)
-- Copy `sub-skip.lua` to `~/.config/mpv/scripts/` on GNU/Linux or macOS, and `C:/Users/Username/AppData/Roaming/mpv/scripts/` on Windows
+- Copy `sub-seek.lua` to `~/.config/mpv/scripts/` on GNU/Linux or macOS, and `C:/Users/Username/AppData/Roaming/mpv/scripts/` on Windows
 
 ## Usage
 
