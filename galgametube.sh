@@ -15,8 +15,13 @@ read -r url
 # Get the name of the video
 name=$(yt-dlp --get-title "$url")
 
+# Let the user decide the format
+yt-dlp -F "$url"
+echo "Please input the format code of the video you want to download: "
+read -r format
+
 # Download the video
-yt-dlp --write-auto-subs --paths "videos/$name/" "$url"
+yt-dlp --write-auto-subs --write-subs --format "$format" --paths "videos/$name/" "$url"
 
 # Rename the downloaded files
 for file in videos/"$name"/*; do

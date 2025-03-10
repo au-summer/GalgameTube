@@ -11,6 +11,8 @@ Watch YouTube interactively like a visual novel, skipping subtitles as you go.
 - Run `./galgame-tube.sh` and input a YouTube URL when it prompts. The processed contents will be stored in a subdirectory in `videos/`
 - Use `Ctrl-Left` to skip to the next subtitle and `Ctrl-Right` to skip to the previous subtitle
 
+**Tips:** Mpv is very slow when seeking `.webm` files. `mp4` files are recommended, although they are larger in size.
+
 ## Optional: Vim Keybindings
 
 Add the following two lines to your `~/.config/mpv/input.conf` to use Vim keybindings:
